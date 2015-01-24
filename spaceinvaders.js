@@ -7,7 +7,7 @@
 		this.bodies = createInvaders(this).concat(new Player(this, gameSize));
 
 		var self = this;
-		loadSound("shoot.wav", function(shootSound) {
+		loadSound("http://soundbible.com/grab.php?id=472&type=wav", function(shootSound) {
 			self.shootSound = shootSound;
 			var tick = function() {
 				self.update();
